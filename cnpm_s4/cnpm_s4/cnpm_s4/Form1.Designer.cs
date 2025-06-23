@@ -37,6 +37,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.cmb_boloc = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -121,11 +122,20 @@
             this.label6.TabIndex = 9;
             this.label6.Text = "Tìm kiếm";
             // 
+            // cmb_boloc
+            // 
+            this.cmb_boloc.FormattingEnabled = true;
+            this.cmb_boloc.Location = new System.Drawing.Point(661, 20);
+            this.cmb_boloc.Name = "cmb_boloc";
+            this.cmb_boloc.Size = new System.Drawing.Size(121, 28);
+            this.cmb_boloc.TabIndex = 10;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.cmb_boloc);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -154,6 +164,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ComboBox cmb_boloc;
     }
 }
 
