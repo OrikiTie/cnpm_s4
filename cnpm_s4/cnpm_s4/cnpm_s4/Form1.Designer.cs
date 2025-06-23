@@ -39,6 +39,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.cmb_boloc = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -133,7 +134,7 @@
             // 
             this.cmb_boloc.FormattingEnabled = true;
             this.cmb_boloc.Location = new System.Drawing.Point(441, 13);
-            this.cmb_boloc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cmb_boloc.Margin = new System.Windows.Forms.Padding(2);
             this.cmb_boloc.Name = "cmb_boloc";
             this.cmb_boloc.Size = new System.Drawing.Size(82, 21);
             this.cmb_boloc.TabIndex = 10;
@@ -147,11 +148,21 @@
             this.label7.TabIndex = 11;
             this.label7.Text = ":V";
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(426, 135);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(42, 13);
+            this.label8.TabIndex = 12;
+            this.label8.Text = ":DDDD";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(533, 292);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.cmb_boloc);
             this.Controls.Add(this.label6);
@@ -184,6 +195,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox cmb_boloc;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
     }
 }
 
